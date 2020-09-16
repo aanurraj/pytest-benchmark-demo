@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1600274259017,
+  "lastUpdate": 1600284251443,
   "repoUrl": "https://github.com/aanurraj/pytest-benchmark-demo",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -76,6 +76,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000034857881579120117",
             "extra": "mean: 2.26877184027634 usec\nrounds: 90910"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anubhavraj.08@gmail.com",
+            "name": "Anubhav Raj Singh",
+            "username": "aanurraj"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0646fed3645a6104da68e13eacb48f42d746f753",
+          "message": "Merge pull request #1 from aanurraj/test-branch\n\nadded new benchmark fuction",
+          "timestamp": "2020-09-17T00:53:35+05:30",
+          "tree_id": "7fa3be70c19d3dc1a85af45b5164fe018c34255f",
+          "url": "https://github.com/aanurraj/pytest-benchmark-demo/commit/0646fed3645a6104da68e13eacb48f42d746f753"
+        },
+        "date": 1600284250777,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_sigmoid_10",
+            "value": 391731.62829916796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008491970073310045",
+            "extra": "mean: 2.5527680885554984 usec\nrounds: 31249"
+          },
+          {
+            "name": "bench.py::test_sigmoid_20",
+            "value": 401020.05848553375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005574035186922385",
+            "extra": "mean: 2.493640851224587 usec\nrounds: 81295"
+          },
+          {
+            "name": "bench.py::test_sigmoid_1000",
+            "value": 312265.72955784545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008006911372541639",
+            "extra": "mean: 3.2024007290712175 usec\nrounds: 37035"
           }
         ]
       }
