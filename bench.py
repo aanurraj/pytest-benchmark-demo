@@ -7,5 +7,5 @@ def test_sigmoid_10(benchmark):
 
 
 def test_sigmoid_20(benchmark):
-    benchmark(calculate_sigmoid, 20)
+    benchmark(calculate_sigmoid, 100)
 
