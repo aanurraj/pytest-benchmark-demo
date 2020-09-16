@@ -28,4 +28,4 @@ jobs:
           alert-threshold: '200%'
           comment-on-alert: true
           fail-on-alert: true
-          alert-comment-cc-users: '@aanurraj'
+          alert-comment-cc-users: '@aanu'
