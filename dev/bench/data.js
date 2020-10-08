@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1602166487897,
+  "lastUpdate": 1602183856268,
   "repoUrl": "https://github.com/aanurraj/pytest-benchmark-demo",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -211,6 +211,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000017061995153002827",
             "extra": "mean: 1.0011308161999977 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anubhavraj.08@gmail.com",
+            "name": "Anubhav Raj Singh",
+            "username": "aanurraj"
+          },
+          "committer": {
+            "email": "anubhavraj.08@gmail.com",
+            "name": "Anubhav Raj Singh",
+            "username": "aanurraj"
+          },
+          "distinct": true,
+          "id": "0a7cb9f08d0443294b2ad22c47019d242753d01c",
+          "message": "checking the fix for secrets",
+          "timestamp": "2020-10-09T00:33:22+05:30",
+          "tree_id": "7f9bb7a655e076121d4b423f53c033420a21b0a7",
+          "url": "https://github.com/aanurraj/pytest-benchmark-demo/commit/0a7cb9f08d0443294b2ad22c47019d242753d01c"
+        },
+        "date": 1602183852676,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_sigmoid_10",
+            "value": 1.99718369458037,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003042596091944306",
+            "extra": "mean: 500.70506920001213 msec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_sigmoid_20",
+            "value": 1.9973490153236249,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005670698005790186",
+            "extra": "mean: 500.66362580000714 msec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_sigmoid_1000",
+            "value": 1.9973101728569473,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022632133183511108",
+            "extra": "mean: 500.6733623999935 msec\nrounds: 5"
           }
         ]
       }
