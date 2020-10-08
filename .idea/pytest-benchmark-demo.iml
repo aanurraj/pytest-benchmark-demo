@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/pytest-benchmark" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (pytest-benchmark-demo)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (PySyft) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
