@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1600284251443,
+  "lastUpdate": 1602165662352,
   "repoUrl": "https://github.com/aanurraj/pytest-benchmark-demo",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -121,6 +121,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008006911372541639",
             "extra": "mean: 3.2024007290712175 usec\nrounds: 37035"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "anubhavraj.08@gmail.com",
+            "name": "Anubhav Raj Singh",
+            "username": "aanurraj"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e1da9a6000a84fa21bb2c32a97ebb1d8136701f",
+          "message": "Merge pull request #2 from gmuraru/gm-test\n\nAdd delay",
+          "timestamp": "2020-10-08T19:29:56+05:30",
+          "tree_id": "6fc66868031f1c782f7f93be9e69247ebf73ab2b",
+          "url": "https://github.com/aanurraj/pytest-benchmark-demo/commit/0e1da9a6000a84fa21bb2c32a97ebb1d8136701f"
+        },
+        "date": 1602165661043,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_sigmoid_10",
+            "value": 0.9988305069154577,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005104258076196201",
+            "extra": "mean: 1.0011708624000222 sec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_sigmoid_20",
+            "value": 0.9988418738113872,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000052740915235031744",
+            "extra": "mean: 1.0011594690000265 sec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_sigmoid_1000",
+            "value": 0.9988513934142059,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002800147195539745",
+            "extra": "mean: 1.0011499273999789 sec\nrounds: 5"
           }
         ]
       }
